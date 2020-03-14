@@ -1,0 +1,17 @@
+const discord = require("discord.js");
+const client = new discord.Client();
+const prefix = ",";
+const token2 = "NjcyMTcxMDU4MjIwMTA1NzI4.XmvqdA.qdiM4Ck9O3ncarbmOoojmKHdnTI"//token invalide cheh
+client.login(token2)
+var id = channel.create.id
+client.on('message', msg =>{
+if(msg.content.startsWith(prefix + "setup")){
+msg.guild.channel.create('name', "text").then (channel => {var id = createdChannel.id})
+  .then(console.log(id));
+msg.guild.channels.create("serveur 1", "voice")
+msg.guild.channels.create("serveur 2", "voice")
+msg.guild.channels.create("serveur 3", "voice")
+msg.guild.channels.create("serveur 4", "voice")
+msg.guild.channels.create("serveur 5", "voice")
+msg.guild.channels.create("nombre total de joueur", "voice")}
+});
